@@ -1,12 +1,16 @@
-import AboutSection from "@/components/AboutSection"
 import HeroSection from "@/components/HeroSection"
-import ProjectsSection from "@/components/ProjectsSection"
+import Nosotras from "@/components/Nosotras"
+import Productos from "@/components/Productos"
+import Recetas from "@/components/Recetas"
+import Contacto from "@/components/Contacto"
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
-      <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
+    <main className = "bg-scroll bg-my_bg_image bg-local bg-cover bg-center">
+    <HeroSection/>
+    <Nosotras/>
+    <Productos/>
+    <Recetas/>
+    <Contacto/>
     </main>
   )
 }
